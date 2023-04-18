@@ -26,6 +26,10 @@ public class Movie {
     }
 
 
+    public Movie(){
+
+    }
+
     public int getId() {
         return id;
     }

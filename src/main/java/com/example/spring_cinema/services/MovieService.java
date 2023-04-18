@@ -11,6 +11,7 @@ import java.util.Optional;
 
 @Service
 public class MovieService {
+
     @Autowired
     MovieRepository movieRepository;
 
@@ -22,7 +23,7 @@ public class MovieService {
     }
 
     public Movie createNewMovie() {
-        return new Movie("Spider-man", "12A", 123);
+        return movieList.createNewMovie();
     }
 
     public List<Movie> getAllMovies(){
